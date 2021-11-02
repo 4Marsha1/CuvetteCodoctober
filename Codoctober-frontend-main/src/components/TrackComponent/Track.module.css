@@ -1,0 +1,53 @@
+.track{
+  width: 45%;
+  box-shadow: 10px 10px 7.5px gray;
+  display: flex;
+  color: white;
+  border-radius: 20px;
+  padding: 20px ;
+  display: flex;
+  transform: scale(0.8);
+  background-color: #F0715B;
+}
+.track > img{
+  width: auto;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+.hr{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.domain{
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+.content{
+    font-size: 1rem;
+}
+
+@media screen and (max-width:500px) {
+    .track{
+        flex-direction: column;
+    }
+    .track>img{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .track{
+        width: 80%;
+    }
+}
+
